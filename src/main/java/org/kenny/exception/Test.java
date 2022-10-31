@@ -5,6 +5,9 @@ public class Test {
         MainClass mainClass = new MainClass();
 
         try {
+            /**
+             * 增加注视
+             */
             mainClass.methodA();
         } catch (ExceptionA e) {
             throw new RuntimeException(e);
